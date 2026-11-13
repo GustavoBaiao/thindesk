@@ -1,0 +1,21 @@
+# Maven build output
+target/
+
+# IDE settings and local run configurations
+.idea/
+*.iml
+.vscode/
+.run/
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Duplicate copy supplied with the original project
+/thindesk/
+
+# Operating system files
+Thumbs.db
+.DS_Store
