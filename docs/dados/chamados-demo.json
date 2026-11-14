@@ -1,0 +1,602 @@
+[
+  {
+    "_id": {
+      "$oid": "8086c5bf82d2cb84f9255d3a"
+    },
+    "descricao": "[DEMO 01] Verificação de equipamento com falha",
+    "status": "CONCLUIDO",
+    "tipo": "Hardware",
+    "tecnico": "Gustavo",
+    "usuario": "Usuario ficticio 01",
+    "dataAbertura": {
+      "$date": "2026-09-01T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-09-01T14:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "03a96f9d378016b6a09c2256"
+    },
+    "descricao": "[DEMO 02] Verificação de equipamento com falha",
+    "status": "CONCLUIDO",
+    "tipo": "Hardware",
+    "tecnico": "Ana",
+    "usuario": "Usuario ficticio 02",
+    "dataAbertura": {
+      "$date": "2026-10-08T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-10-08T15:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ab3a33fdcc1c3f573d4b0884"
+    },
+    "descricao": "[DEMO 03] Verificação de equipamento com falha",
+    "status": "CONCLUIDO",
+    "tipo": "Hardware",
+    "tecnico": "Carlos",
+    "usuario": "Usuario ficticio 03",
+    "dataAbertura": {
+      "$date": "2026-11-07T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-11-07T16:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "240bbcff22dd79f3ed7ae667"
+    },
+    "descricao": "[DEMO 04] Verificação de equipamento com falha",
+    "status": "CONCLUIDO",
+    "tipo": "Hardware",
+    "tecnico": "Marina",
+    "usuario": "Usuario ficticio 04",
+    "dataAbertura": {
+      "$date": "2026-09-22T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-09-22T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "529d59637e1938e051577fc2"
+    },
+    "descricao": "[DEMO 05] Verificação de equipamento com falha",
+    "status": "CONCLUIDO",
+    "tipo": "Hardware",
+    "tecnico": "Gustavo",
+    "usuario": "Usuario ficticio 05",
+    "dataAbertura": {
+      "$date": "2026-10-03T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-10-03T18:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e4cee1222eb87e07acb2548e"
+    },
+    "descricao": "[DEMO 06] Verificação de equipamento com falha",
+    "status": "CONCLUIDO",
+    "tipo": "Hardware",
+    "tecnico": "Ana",
+    "usuario": "Usuario ficticio 06",
+    "dataAbertura": {
+      "$date": "2026-11-03T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-11-03T19:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d2ef4add8ee86d11326d49fa"
+    },
+    "descricao": "[DEMO 07] Verificação de equipamento com falha",
+    "status": "CONCLUIDO",
+    "tipo": "Hardware",
+    "tecnico": "Carlos",
+    "usuario": "Usuario ficticio 07",
+    "dataAbertura": {
+      "$date": "2026-09-17T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-09-17T20:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "678db00564f78b532ccbad4c"
+    },
+    "descricao": "[DEMO 08] Restabelecimento de conexão de rede",
+    "status": "CONCLUIDO",
+    "tipo": "Rede",
+    "tecnico": "Marina",
+    "usuario": "Usuario ficticio 08",
+    "dataAbertura": {
+      "$date": "2026-10-24T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-10-24T14:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c279090bed9f8e1fe60472da"
+    },
+    "descricao": "[DEMO 09] Restabelecimento de conexão de rede",
+    "status": "CONCLUIDO",
+    "tipo": "Rede",
+    "tecnico": "Gustavo",
+    "usuario": "Usuario ficticio 09",
+    "dataAbertura": {
+      "$date": "2026-11-12T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-11-12T15:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e74e66f400f998c7d6bb7f1b"
+    },
+    "descricao": "[DEMO 10] Restabelecimento de conexão de rede",
+    "status": "CONCLUIDO",
+    "tipo": "Rede",
+    "tecnico": "Ana",
+    "usuario": "Usuario ficticio 10",
+    "dataAbertura": {
+      "$date": "2026-09-12T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-09-12T16:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3973801eeb034d94f7786382"
+    },
+    "descricao": "[DEMO 11] Restabelecimento de conexão de rede",
+    "status": "CONCLUIDO",
+    "tipo": "Rede",
+    "tecnico": "Carlos",
+    "usuario": "Usuario ficticio 11",
+    "dataAbertura": {
+      "$date": "2026-10-19T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-10-19T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7567b476d49700736fbf7133"
+    },
+    "descricao": "[DEMO 12] Restabelecimento de conexão de rede",
+    "status": "CONCLUIDO",
+    "tipo": "Rede",
+    "tecnico": "Marina",
+    "usuario": "Usuario ficticio 12",
+    "dataAbertura": {
+      "$date": "2026-11-08T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-11-08T18:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7354fefa1bd8ea302fb68925"
+    },
+    "descricao": "[DEMO 13] Ajuste de instalação e configuração",
+    "status": "CONCLUIDO",
+    "tipo": "Software",
+    "tecnico": "Gustavo",
+    "usuario": "Usuario ficticio 13",
+    "dataAbertura": {
+      "$date": "2026-09-07T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-09-07T19:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3898220bd1833aaed4e59276"
+    },
+    "descricao": "[DEMO 14] Ajuste de instalação e configuração",
+    "status": "CONCLUIDO",
+    "tipo": "Software",
+    "tecnico": "Ana",
+    "usuario": "Usuario ficticio 14",
+    "dataAbertura": {
+      "$date": "2026-10-14T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-10-14T20:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7dd92124a48b9a42e5311baa"
+    },
+    "descricao": "[DEMO 15] Ajuste de instalação e configuração",
+    "status": "CONCLUIDO",
+    "tipo": "Software",
+    "tecnico": "Carlos",
+    "usuario": "Usuario ficticio 15",
+    "dataAbertura": {
+      "$date": "2026-11-04T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-11-04T14:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "41e575f61584955f5f9c9d4e"
+    },
+    "descricao": "[DEMO 16] Ajuste de instalação e configuração",
+    "status": "CONCLUIDO",
+    "tipo": "Software",
+    "tecnico": "Marina",
+    "usuario": "Usuario ficticio 16",
+    "dataAbertura": {
+      "$date": "2026-09-02T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-09-02T15:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d13c9d029fe270d552b414f3"
+    },
+    "descricao": "[DEMO 17] Correção de falha de impressão",
+    "status": "CONCLUIDO",
+    "tipo": "Impressora",
+    "tecnico": "Gustavo",
+    "usuario": "Usuario ficticio 17",
+    "dataAbertura": {
+      "$date": "2026-10-09T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-10-09T16:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2c374a19221d327bdf69a995"
+    },
+    "descricao": "[DEMO 18] Correção de falha de impressão",
+    "status": "CONCLUIDO",
+    "tipo": "Impressora",
+    "tecnico": "Ana",
+    "usuario": "Usuario ficticio 18",
+    "dataAbertura": {
+      "$date": "2026-11-13T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-11-13T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "068160d23a5e1e34cd324753"
+    },
+    "descricao": "[DEMO 19] Regularização de acesso ao sistema",
+    "status": "CONCLUIDO",
+    "tipo": "Acesso",
+    "tecnico": "Carlos",
+    "usuario": "Usuario ficticio 19",
+    "dataAbertura": {
+      "$date": "2026-09-23T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-09-23T18:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d39bb9015c05371b5567ab70"
+    },
+    "descricao": "[DEMO 20] Verificação de ramal sem comunicação",
+    "status": "CONCLUIDO",
+    "tipo": "Telefonia",
+    "tecnico": "Marina",
+    "usuario": "Usuario ficticio 20",
+    "dataAbertura": {
+      "$date": "2026-10-04T12:00:00.000Z"
+    },
+    "dataConclusao": {
+      "$date": "2026-10-04T19:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f116d538f4d0a9f05f5da1d7"
+    },
+    "descricao": "[DEMO 21] Ajuste de instalação e configuração",
+    "status": "ABERTO",
+    "tipo": "Software",
+    "tecnico": "Gustavo",
+    "usuario": "Usuario ficticio 21",
+    "dataAbertura": {
+      "$date": "2026-11-09T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "35caf8805d532918fdbc873a"
+    },
+    "descricao": "[DEMO 22] Correção de falha de impressão",
+    "status": "ABERTO",
+    "tipo": "Impressora",
+    "tecnico": "Ana",
+    "usuario": "Usuario ficticio 22",
+    "dataAbertura": {
+      "$date": "2026-09-18T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "d351573cb91a887dc30a2961"
+    },
+    "descricao": "[DEMO 23] Regularização de acesso ao sistema",
+    "status": "ABERTO",
+    "tipo": "Acesso",
+    "tecnico": "Carlos",
+    "usuario": "Usuario ficticio 23",
+    "dataAbertura": {
+      "$date": "2026-10-25T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "718229a8cf50853647003752"
+    },
+    "descricao": "[DEMO 24] Verificação de ramal sem comunicação",
+    "status": "ABERTO",
+    "tipo": "Telefonia",
+    "tecnico": "Marina",
+    "usuario": "Usuario ficticio 24",
+    "dataAbertura": {
+      "$date": "2026-11-05T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "6b6ef05727b24c8413b4ad93"
+    },
+    "descricao": "[DEMO 25] Verificação de equipamento com falha",
+    "status": "ABERTO",
+    "tipo": "Hardware",
+    "tecnico": "Gustavo",
+    "usuario": "Usuario ficticio 25",
+    "dataAbertura": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "cc5e7fdaebde9c3aa791400d"
+    },
+    "descricao": "[DEMO 26] Restabelecimento de conexão de rede",
+    "status": "ABERTO",
+    "tipo": "Rede",
+    "tecnico": "Ana",
+    "usuario": "Usuario ficticio 26",
+    "dataAbertura": {
+      "$date": "2026-10-20T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "69aabd0a96951c122f0b96fa"
+    },
+    "descricao": "[DEMO 27] Ajuste de instalação e configuração",
+    "status": "ABERTO",
+    "tipo": "Software",
+    "tecnico": "Carlos",
+    "usuario": "Usuario ficticio 27",
+    "dataAbertura": {
+      "$date": "2026-11-01T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "5453c658c6e088201b108d77"
+    },
+    "descricao": "[DEMO 28] Correção de falha de impressão",
+    "status": "ABERTO",
+    "tipo": "Impressora",
+    "tecnico": "Marina",
+    "usuario": "Usuario ficticio 28",
+    "dataAbertura": {
+      "$date": "2026-09-08T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "3186d146c345b443b20c5c06"
+    },
+    "descricao": "[DEMO 29] Regularização de acesso ao sistema",
+    "status": "EM_ANDAMENTO",
+    "tipo": "Acesso",
+    "tecnico": "Gustavo",
+    "usuario": "Usuario ficticio 29",
+    "dataAbertura": {
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "ccc221c062ebfbf979bbbc4e"
+    },
+    "descricao": "[DEMO 30] Verificação de ramal sem comunicação",
+    "status": "EM_ANDAMENTO",
+    "tipo": "Telefonia",
+    "tecnico": "Ana",
+    "usuario": "Usuario ficticio 30",
+    "dataAbertura": {
+      "$date": "2026-11-10T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "d575ef18c57252ec4c7574f0"
+    },
+    "descricao": "[DEMO 31] Verificação de equipamento com falha",
+    "status": "EM_ANDAMENTO",
+    "tipo": "Hardware",
+    "tecnico": "Carlos",
+    "usuario": "Usuario ficticio 31",
+    "dataAbertura": {
+      "$date": "2026-09-03T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "d2fc0f1c125b3e648db4e1e6"
+    },
+    "descricao": "[DEMO 32] Restabelecimento de conexão de rede",
+    "status": "EM_ANDAMENTO",
+    "tipo": "Rede",
+    "tecnico": "Marina",
+    "usuario": "Usuario ficticio 32",
+    "dataAbertura": {
+      "$date": "2026-10-10T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "965b5e2a71c75bfc93103986"
+    },
+    "descricao": "[DEMO 33] Ajuste de instalação e configuração",
+    "status": "EM_ANDAMENTO",
+    "tipo": "Software",
+    "tecnico": "Gustavo",
+    "usuario": "Usuario ficticio 33",
+    "dataAbertura": {
+      "$date": "2026-11-06T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "e2b4d6fe237a7a02a37536d3"
+    },
+    "descricao": "[DEMO 34] Correção de falha de impressão",
+    "status": "EM_ANDAMENTO",
+    "tipo": "Impressora",
+    "tecnico": "Ana",
+    "usuario": "Usuario ficticio 34",
+    "dataAbertura": {
+      "$date": "2026-09-24T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "872023ed8fe7d52c35622147"
+    },
+    "descricao": "[DEMO 35] Regularização de acesso ao sistema",
+    "status": "EM_ANDAMENTO",
+    "tipo": "Acesso",
+    "tecnico": "Carlos",
+    "usuario": "Usuario ficticio 35",
+    "dataAbertura": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "f8a47cae6cd2d2431cafe00f"
+    },
+    "descricao": "[DEMO 36] Verificação de ramal sem comunicação",
+    "status": "EM_ANDAMENTO",
+    "tipo": "Telefonia",
+    "tecnico": "Marina",
+    "usuario": "Usuario ficticio 36",
+    "dataAbertura": {
+      "$date": "2026-11-02T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "94484728a0136776e3a4cb05"
+    },
+    "descricao": "[DEMO 37] Verificação de equipamento com falha",
+    "status": "CANCELADO",
+    "tipo": "Hardware",
+    "tecnico": "Gustavo",
+    "usuario": "Usuario ficticio 37",
+    "dataAbertura": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "34830dd16cd43b1f6661176d"
+    },
+    "descricao": "[DEMO 38] Restabelecimento de conexão de rede",
+    "status": "CANCELADO",
+    "tipo": "Rede",
+    "tecnico": "Ana",
+    "usuario": "Usuario ficticio 38",
+    "dataAbertura": {
+      "$date": "2026-10-26T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "e62ea61fcf392d521c712525"
+    },
+    "descricao": "[DEMO 39] Ajuste de instalação e configuração",
+    "status": "CANCELADO",
+    "tipo": "Software",
+    "tecnico": "Carlos",
+    "usuario": "Usuario ficticio 39",
+    "dataAbertura": {
+      "$date": "2026-11-11T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  },
+  {
+    "_id": {
+      "$oid": "83662c8d8c8dc3da5c16a6c0"
+    },
+    "descricao": "[DEMO 40] Correção de falha de impressão",
+    "status": "CANCELADO",
+    "tipo": "Impressora",
+    "tecnico": "Marina",
+    "usuario": "Usuario ficticio 40",
+    "dataAbertura": {
+      "$date": "2026-09-14T12:00:00.000Z"
+    },
+    "dataConclusao": null
+  }
+]
