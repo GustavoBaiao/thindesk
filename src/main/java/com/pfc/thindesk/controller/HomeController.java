@@ -32,13 +32,9 @@ public class HomeController {
         return "login";
     }
 
-    @GetMapping("/")
+    @GetMapping({"/", "/dashboard"})
     public ModelAndView home() {
-        ModelAndView modelAndView = new ModelAndView("layout");
-        String fragment = "home :: content";
-        log.info("Carregando fragmento: {}", fragment); // Log para depuração
-        modelAndView.addObject("content", fragment);
-        return modelAndView;
+        return new ModelAndView("dashboard");
     }
 
     @GetMapping("/chamados")
